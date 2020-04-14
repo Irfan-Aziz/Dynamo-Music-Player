@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    height: 150px;
+    overflow: hidden;
+    background-color: maroon;
+}
+.heading{
+    margin-top: 30px;
+    display: flex;
+    color:black;
+    justify-content: center;
+
+}
+.note{
+    height:50px;
+    background-color: blanchedalmond;
+}
+.note p{
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+.main{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: maroon;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    
+}
+.box{
+    width: 30%;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    
+}
+.a{
+    background: url("images/crawling.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+}
+.b{
+    background: url("images/in.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.c{
+    background: url("images/faint.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.d{
+    background: url("images/ptsjpg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.e{
+    background: url("images/papercut.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.f{
+    background: url("images/numb.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.g{
+    background: url("images/push.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h{
+    background: url("images/one.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.i{
+    background: url("images/runaway.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box button{
+    display: flex;
+    position:relative;
+    top: 85%;
+    left:47%;
+    background-color: maroon;
+    color: wheat;
+
+}
+.box p{
+    display: none;
+}
+#pause,#pause2,#pause3,#pause4,#pause5,#pause6,#pause7,#pause8,#pause9{
+    display:none;
+}

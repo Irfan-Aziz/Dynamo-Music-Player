@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dynamo Music Player</title>
+</head>
+<body>
+    <div class="header">
+        <div class="heading">
+           <h1> <i class="fa fa-music" aria-hidden="true"></i> Dynamo Music Player <i class="fa fa-music"></i></h1>
+        </div>
+    </div>
+   <div class="note">
+       <marquee behavior="" direction="">
+           <!--<p>Click on any image once to play the song & twice to pause the song :)</p>-->
+           <p>Click on the play button of any particular image to play that song :) </p>
+        </marquee>
+   </div>
+</body>
+<div class="main">
+    <div class="a song box"><p>a</p>
+        <button id="play" onclick="play1()"><i class="fa fa-play"></i></button>
+        <button id="pause" onclick="pause1()"><i class="fa fa-pause"></i></button>
+    </div>
+    <div class="b song box"><p>b</p>
+        
+        <button id="play2" onclick="play2()"><i class="fa fa-play"></i></button>
+        <button id="pause2" onclick="pause2()"><i class="fa fa-pause"></i></button>
+    </div>
+    <div class="c song box"><p>c</p>
+        
+        <button id="play3" onclick="play3()"><i class="fa fa-play"></i></button>
+        <button id="pause3" onclick="pause3()"><i class="fa fa-pause"></i></button>
+    </div>
+    <div class="d song box"><p>d</p>
+        
+        <button id="play4" onclick="play4()"><i class="fa fa-play"></i></button>
+        <button id="pause4" onclick="pause4()"><i class="fa fa-pause"></i></button>
+    </div>
+    <div class="e song box"><p>e</p>
+        
+        <button id="play5" onclick="play5()"><i class="fa fa-play"></i></button>
+        <button id="pause5" onclick="pause5()"><i class="fa fa-pause"></i></button>
+    </div>
+    <div class="f song box"><p>f</p>
+        
+        <button id="play6" onclick="play6()"><i class="fa fa-play"></i></button>
+        <button id="pause6" onclick="pause6()"><i class="fa fa-pause"></i></button>
+    </div>
+    <div class="g song box"><p>g</p>
+        
+        <button id="play7" onclick="play7()"><i class="fa fa-play"></i></button>
+        <button id="pause7" onclick="pause7()"><i class="fa fa-pause"></i></button>
+    </div>
+    <div class="h song box"><p>h</p>
+        
+        <button id="play8" onclick="play8()"><i class="fa fa-play"></i></button>
+        <button id="pause8" onclick="pause8()"><i class="fa fa-pause"></i></button>
+    </div>
+    <div class="i song box"><p>i</p>
+        
+        <button id="play9" onclick="play9()"><i class="fa fa-play"></i></button>
+        <button id="pause9" onclick="pause9()"><i class="fa fa-pause"></i></button>
+    </div>
+</div>
+<script>
+  var song1=new Audio();
+    song1.src="songs/Linkin_Park_-_Crawling_Qoret.com.mp3"
+    var song2=new Audio();
+    song2.src="songs/Linkin_Park_-_In_the_End_Qoret.com.mp3"
+    var song3=new Audio();
+    song3.src="songs/Linkin_Park_-_Faint_Qoret.com.mp3"
+    var song4=new Audio();
+    song4.src="songs/Linkin_Park_Jay_Gordon_Reanimation_-_PtsOfAthrty_Qoret.com.mp3"
+    var song5=new Audio();
+    song5.src="songs/Linkin_Park_-_Papercut_Qoret.com.mp3"
+    var song6=new Audio();
+    song6.src="songs/Linkin_Park_-_Numb_Qoret.com.mp3"
+    var song7=new Audio();
+    song7.src="songs/Linkin_Park_-_Pushing_Me_Away_Qoret.com.mp3"
+    var song8=new Audio();
+    song8.src="songs/Linkin_Park_-_One_Step_Closer_Qoret.com.mp3";
+    var song9=new Audio();
+    song9.src="songs/Linkin_Park_-_Runaway_Qoret.com.mp3"
+    function play1(){
+     
+     song1.play()
+     const pause=document.getElementById("pause");
+     pause.style.display="block"
+     const play=document.getElementById("play");
+     play.style.display="none";
+     }
+     function pause1(){
+              
+     song1.pause()
+     const pause=document.getElementById("pause");
+     pause.style.display="none"
+     const play=document.getElementById("play");
+     play.style.display="block";
+     }
+     function play2(){
+      
+      song2.play()
+      const pause=document.getElementById("pause2");
+      pause.style.display="block"
+      const play=document.getElementById("play2");
+      play.style.display="none";
+      }
+      function pause2(){
+               
+      song2.pause()
+      const pause=document.getElementById("pause2");
+      pause.style.display="none"
+      const play=document.getElementById("play2");
+      play.style.display="block";
+      }
+      function play3(){
+      
+      song3.play()
+      const pause=document.getElementById("pause3");
+      pause.style.display="block"
+      const play=document.getElementById("play3");
+      play.style.display="none";
+      }
+      function pause3(){
+               
+      song3.pause()
+      const pause=document.getElementById("pause3");
+      pause.style.display="none"
+      const play=document.getElementById("play3");
+      play.style.display="block";
+      }
+      function play4(){
+      
+      song4.play()
+      const pause=document.getElementById("pause4");
+      pause.style.display="block"
+      const play=document.getElementById("play4");
+      play.style.display="none";
+      }
+      function pause4(){
+               
+      song4.pause()
+      const pause=document.getElementById("pause4");
+      pause.style.display="none"
+      const play=document.getElementById("play4");
+      play.style.display="block";
+      }
+      function play5(){
+      
+      song5.play()
+      const pause=document.getElementById("pause5");
+      pause.style.display="block"
+      const play=document.getElementById("play5");
+      play.style.display="none";
+      }
+      function pause5(){
+               
+      song5.pause()
+      const pause=document.getElementById("pause5");
+      pause.style.display="none"
+      const play=document.getElementById("play5");
+      play.style.display="block";
+      }
+      
+      function play6(){
+      
+      song6.play()
+      const pause=document.getElementById("pause6");
+      pause.style.display="block"
+      const play=document.getElementById("play6");
+      play.style.display="none";
+      }
+      function pause6(){
+               
+      song6.pause()
+      const pause=document.getElementById("pause6");
+      pause.style.display="none"
+      const play=document.getElementById("play6");
+      play.style.display="block";
+      }
+      function play7(){
+      
+      song7.play()
+      const pause=document.getElementById("pause7");
+      pause.style.display="block"
+      const play=document.getElementById("play7");
+      play.style.display="none";
+      }
+      function pause7(){
+               
+      song7.pause()
+      const pause=document.getElementById("pause7");
+      pause.style.display="none"
+      const play=document.getElementById("play7");
+      play.style.display="block";
+      }
+      function play8(){
+      
+      song8.play()
+      const pause=document.getElementById("pause8");
+      pause.style.display="block"
+      const play=document.getElementById("play8");
+      play.style.display="none";
+      }
+      function pause8(){
+               
+      song8.pause()
+      const pause=document.getElementById("pause8");
+      pause.style.display="none"
+      const play=document.getElementById("play8");
+      play.style.display="block";
+      }
+      function play9(){
+      
+      song9.play()
+      const pause=document.getElementById("pause9");
+      pause.style.display="block"
+      const play=document.getElementById("play9");
+      play.style.display="none";
+      }
+      function pause9(){
+               
+      song9.pause()
+      const pause=document.getElementById("pause9");
+      pause.style.display="none"
+      const play=document.getElementById("play9");
+      play.style.display="block";
+      }
+
+
+    /*The following part is the code where the songs would play by just
+    clicking any particular image once & would pause by clicking the particular image twice*/
+    
+    /*let divlength=document.querySelectorAll('.song').length
+    for(var i=0;i<divlength;i++){
+        var demo=document.querySelectorAll('.song')[i].addEventListener("click",playsong)
+        var demo=document.querySelectorAll('.song')[i].addEventListener("dblclick",pausesong)
+    }
+    
+    function playsong(){
+        console.log(this)
+        var songId=this.innerHTML;
+        console.log(songId)
+        switch (songId) {
+            case 'a':
+                    song1.play();
+                break;
+            case 'b':
+                    song2.play();
+                break;
+                case 'c':
+                    song3.play();
+                break;
+                case 'd':
+                    song4.play();
+                break;
+                case 'e':
+                    song5.play();
+                break;
+                case 'f':
+                    song6.play();
+                break;
+                case 'g':
+                    song7.play();
+                break;
+                case 'h':
+                    song8.play();
+                break;
+                case 'i':
+                    song9.play();
+                break;
+            default:
+                break;
+        }
+    }
+    function pausesong(){
+        console.log(this)
+        var songId=this.innerHTML;
+        console.log(songId)
+        switch (songId) {
+            case 'a':
+                    song1.pause();
+                break;
+            case 'b':
+                    song2.pause();
+                break;
+                case 'c':
+                    song3.pause();
+                break;
+                case 'd':
+                    song4.pause();
+                break;
+                case 'e':
+                    song5.pause();
+                break;
+                case 'f':
+                    song6.pause();
+                break;
+                case 'g':
+                    song7.pause();
+                break;
+                case 'h':
+                    song8.pause();
+                break;
+                case 'i':
+                    song9.pause();
+                break;
+            default:
+                break;
+        }
+
+    }*/
+   
+   
+</script>
+</html>
